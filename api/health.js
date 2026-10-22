@@ -1,0 +1,1 @@
+export default function handler(req,res){res.status(200).json({ok:true,service:'tasteproof',qlooConfigured:Boolean(process.env.QLOO_API_KEY)})}
