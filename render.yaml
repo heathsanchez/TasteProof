@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: tasteproof-qloo
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 22.19.0
+      - key: QLOO_API_KEY
+        sync: false
