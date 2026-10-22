@@ -1,0 +1,14 @@
+{
+  "name": "tasteproof",
+  "version": "0.6.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "license": "MIT"
+}
